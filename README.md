@@ -15,7 +15,7 @@ require_once 'vendor/autoload.php';
 //require_once 'lib/DBImport/class.db-import.php';
 
 // Instance the class
-$DBImport = new DBImport([
+$DBImport   =   new DBImport([
     'host'	=>	'YOUR_HOST', // Host of database
     'user'	=>	'YOUR_USERNAME', // User of database
     'pass'	=>	'YOUR_PASSWORD', // Password of database
